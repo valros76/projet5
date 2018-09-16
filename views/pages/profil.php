@@ -12,7 +12,7 @@ $group_name = $infos->group_name();
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="templates/css/profilStyle.css"/>
+    <link rel="stylesheet" href="templates/css/style.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mon profil</title>
@@ -30,11 +30,6 @@ $group_name = $infos->group_name();
         </nav>
     </header>
 
-    <aside id="homeSider_left">
-        <h3>Voxtex</h3>
-        <img src="assets/img/voxtex1.png" alt="imgVoxtex1"/>
-    </aside>
-
     <section id="homeContent">
         <h2>Mon profil</h2>
         <article class="art">
@@ -51,11 +46,6 @@ $group_name = $infos->group_name();
             </div>
         </article>
     </section>
-
-    <aside id="homeSider_right">
-        <h3>Voxtex</h3>
-        <img src="assets/img/voxtex1.png" alt="imgVoxtex1"/>
-    </aside>
 
     <footer id="homeFoot">
         <p>Site développé par Valérian Dufrène. -2018</p>
